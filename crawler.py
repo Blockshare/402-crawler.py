@@ -86,5 +86,5 @@ if __name__=='__main__':
             'http://www.blockshar.es/ether',
 	]
 
-	crawler = Crawler402(endpoint_list, '402-crawler.log')
+	crawler = Crawler402(endpoints_list, '402-crawler.log')
     crawler.check_endpoints()
